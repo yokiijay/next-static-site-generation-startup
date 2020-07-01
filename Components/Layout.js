@@ -20,7 +20,8 @@ const Layout = ({ children, title, description, ...props }) => {
           margin: 0 auto;
           padding: 20px;
           font-size: 1.6rem;
-          border-bottom: 4px solid ${rgba('lavender', .6)};
+          border-bottom: 10px solid ${rgba('lavender', .6)};
+          background: white;
 
           .title {
             color: mediumslateblue;
@@ -58,6 +59,7 @@ const Layout = ({ children, title, description, ...props }) => {
           margin: 0 auto;
           padding: 20px;
           color: mediumslateblue;
+          background: white;
         `}
       >
         {children}
