@@ -9,6 +9,7 @@ const BlogDetail = ({ blogData }) => {
     <Layout title={blogData.title} description={blogData.description}>
       <div
         dangerouslySetInnerHTML={{ __html: blogData.__content }}
+        className='markdown-body'
         css={css`
           font-size: 1.2rem;
           list-style: none;

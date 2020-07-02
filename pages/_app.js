@@ -5,6 +5,7 @@ import { jsx, css } from '@emotion/core'
 // import 'prismjs/themes/prism-funky.css'
 
 import 'highlight.js/styles/atom-one-light.css'
+import 'github-markdown-css/github-markdown.css'
 
 const App = ({Component, pageProps}) => {
 
@@ -14,7 +15,7 @@ const App = ({Component, pageProps}) => {
       body {
         background: lavender;
       }
-      p>code {
+      /* p>code {
         background: mediumpurple;
         padding: 4px 8px;
         color: white;
@@ -28,7 +29,7 @@ const App = ({Component, pageProps}) => {
       code {
         /* color: black; */
         font-size: 15px;
-      }
+      } */
     `} />
     <Component {...pageProps} />
   </div>
