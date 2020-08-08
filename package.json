@@ -21,7 +21,7 @@
     "next": "9.4.4",
     "polished": "^3.6.5",
     "prism-themes": "^1.4.0",
-    "prismjs": "^1.20.0",
+    "prismjs": "^1.21.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "yaml-front-matter": "^4.1.0"
